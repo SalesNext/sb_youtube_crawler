@@ -25,3 +25,5 @@ class Video(BaseModel):
     video_release_year: Optional[int] = None
     video_language: Optional[str] = None
     video_quality_rate: Optional[float] = None
+    video_resolution: Optional[str] = None
+    video_frame_per_second: Optional[int] = None

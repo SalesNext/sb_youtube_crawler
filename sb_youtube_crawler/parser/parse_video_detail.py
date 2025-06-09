@@ -35,6 +35,8 @@ def parse_video_detail(video_url: str) -> Dict:
             video_release_year = info.get("release_year"),
             video_language = info.get("language"),
             video_quality_rate = info.get("quality"),
+            video_resolution = info.get("resolution"),
+            video_frame_per_second = info.get("fps"),
             
         )
 
