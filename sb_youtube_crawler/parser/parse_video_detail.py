@@ -18,7 +18,7 @@ def parse_video_detail(video_url: str) -> Dict:
             video_thumbnail = info.get("thumbnail"),
             video_channel_id = info.get("channel_id"),
             video_channel_url = info.get("channel_url"),
-            vide_view_count = info.get("view_count"),
+            video_view_count = info.get("view_count"),
             video_average_rating = info.get("average_rating"),
             video_age_limit = info.get("age_limit"),
             source_video_url = info.get("webpage_url"),

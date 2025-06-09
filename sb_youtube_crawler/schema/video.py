@@ -8,7 +8,7 @@ class Video(BaseModel):
     video_thumbnail: Optional[str] = None
     video_channel_id: Optional[str] = None
     video_channel_url: Optional[str] = None
-    vide_view_count: Optional[int] = None
+    video_view_count: Optional[int] = None
     video_average_rating: Optional[float] = None
     video_age_limit: Optional[int] = None
     source_video_url: Optional[str] = None
