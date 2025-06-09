@@ -42,23 +42,18 @@ https = 'salesnext_crawler.engines.scrapy.downloader.curl_impersonate.CurlImpers
 
     [readers]
 
-    [readers.phone_table]
+    [readers.channel]
     type = 'pyarrow'
     format = 'csv'
     filesystem = 'local'
     path = 'phone_table/*.csv'
 
-    [readers.master_company_table]
+    [readers.video]
     type = 'pyarrow'
     format = 'csv'
     filesystem = 'local'
     path = 'master_company_table/*.csv'
 
-    [readers.master_phone_table]
-    type = 'pyarrow'
-    format = 'csv'
-    filesystem = 'local'
-    path = 'master_phone_table/*.csv'
 
 [crawler]
 classname = 'sb_youtube_crawler.sb_youtube_crawler.SbYoutubeCrawler'
